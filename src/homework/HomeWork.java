@@ -18,14 +18,26 @@ public class HomeWork {
      */
     public static void main(String[] args) {
         
-        int сторона;
-сторона=5;
+        int length;
+length=5;
+        int width;
+width=3;
+        int hight;
+hight=2;
+
+
 
 Scanner in = new Scanner(System.in);
 System.out.print("Введите длину: ");
-сторона = in.nextInt();
+length = in.nextInt();
 
-int area=сторона*3;
+System.out.print("Введите ширину: ");
+width = in.nextInt();
+
+System.out.print("Введите высоту: ");
+hight = in.nextInt();
+
+int area=length*width*hight;
 System.out.println("обьём= "+area+" см3");
 
 
